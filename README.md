@@ -1,63 +1,72 @@
 <div align="center">
-<a href="https://frappehealth.com">
-    <img src="https://raw.githubusercontent.com/frappe/healthcare/develop/healthcare/public/images/healthcare.svg" height="128" alt="Frappe Health Logo">
-  </a>
-  <h2>Frappe Health</h2>
-  <p align="center">
-    <p>Open source & easy-to-use hospital information system(HIS) for all healthcare organisations.</p>
-  </p>
-
-  [Frappe Health](https://frappehealth.com)
-
- <div align="center" style="max-height: 40px;">
-    <a href="https://frappecloud.com/healthcare/signup">
-        <img src=".github/try-on-f-cloud-button.svg" height="40">
-    </a>
- </div>
-
+<img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo" />
 </div>
 
-### Introduction
+An open-source, user-friendly hospital information system for healthcare organizations of all sizes.
 
-Frappe Health enables the health domain in ERPNext and has various features that will help healthcare practitioners, clinics and hospitals to leverage the power of Frappe and ERPNext. It is built on Frappe, a full-stack, meta-data driven, web framework, and integrates seamlessly with ERPNext, the most agile ERP software. Frappe Health helps to manage healthcare workflows efficiently and most of the design is based on HL7 FHIR (Fast Health Interoperability Resources).
+- [Explore the Documentation](https://empress.eco/)
+- [Report a Bug](https://github.com/empress-eco/health/issues)
+- [Request a Feature](https://github.com/empress-eco/health/issues)
 
+## About The Project
+
+Health//README.mdREADME is a comprehensive and robust healthcare management system designed to streamline operations for healthcare practitioners, clinics, and hospitals by leveraging the power of a metadata-driven web framework. This project efficiently manages healthcare workflows with a design based on HL7 FHIR (Fast Health Interoperability Resources), making it an essential tool for any healthcare organization.
 
 ### Key Features
 
-![Key Features](https://raw.githubusercontent.com/frappe/health/develop/key-features.png)
+- Patient Management
+- Outpatient / Inpatient Management
+- Clinical Procedures
+- Rehabilitation and Physiotherapy
+- Laboratory Management
 
-Key feature sets include Patient management, Outpatient / Inpatient management, Clinical Procedures, Rehabilitation and Physiotherapy, Laboratory management etc. and supports configuring multiple Medical Code Standards. It allows mapping any healthcare facility as Service Units and specialities as Medical Departments.
+### Built With
 
-By integrating with ERPNext, features of ERPNext can also be utilized to manage Pharmacy and supplies, Purchases, Human Resources, Accounts and Finance, Asset Management, Quality etc. Along with authentication and role based access permissions, RESTfullness, extensibility, responsiveness and other goodies, the framework also allows setting up Website, payment integration and Patient portal.
+The project uses the following major technologies:
 
+- Metadata-driven web framework
+- HL7 FHIR (Fast Health Interoperability Resources)
+
+## Getting Started
+
+### Prerequisites
+
+To get started, you'll need to install Empress as described [here](https://github.com/Empress/bench#installation).
 
 ### Installation
 
-Using bench, [install ERPNext](https://github.com/frappe/bench#installation) as mentioned here.
-
-Once ERPNext is installed, add health app to your bench by running
+You can add health//README.mdREADME to your bench by following these steps:
 
 ```sh
+# Clone the repository
+$ git clone https://github.com/empress-eco/health.git
+
+# Enter the repository
+$ cd health
+
+# Install the healthcare application
 $ bench get-app healthcare
+$ bench --site yoursite.com install-app healthcare
 ```
 
-After that, you can install health app on required site by running
+## Usage
 
-```sh
-$ bench --site demo.com install-app healthcare
-```
+Health//README.mdREADME has a myriad of features to manage various healthcare workflows including patient management, clinical procedures, laboratory management, and more.
 
+## Contributing
 
-### Documentation
+We welcome contributions! Here's how you can contribute:
 
-Complete documentation for Frappe Health is available at https://frappehealth.com/docs
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
+## License
 
-### License
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
 
-GNU GPL V3. See [license.txt](https://github.com/frappe/health/blob/develop/license.txt) for more information.
+## Acknowledgements
 
-
-### Credits
-
-Frappe Health module is initially developed by Earthians. Currently, it is developed & maintained by Frappe Team and community contributors.
+A heartfelt thanks to the Empress Community for their foundational contributions to this project. Their innovative approach and dedication have been instrumental in shaping the functionalities we rely on. We're deeply grateful for their pioneering work and continuing support.
