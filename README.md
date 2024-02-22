@@ -1,12 +1,12 @@
 <div align="center">
 <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo" />
-</div>
+
 
 An open-source, user-friendly hospital information system for healthcare organizations of all sizes.
 
-- [Explore the Documentation](https://empress.eco/)
-- [Report a Bug](https://github.com/empress-eco/health/issues)
-- [Request a Feature](https://github.com/empress-eco/health/issues)
+[Explore the Documentation](https://empress.eco/) |  [Report a Bug](https://github.com/empress-eco/health/issues) | [Request a Feature](https://github.com/empress-eco/health/issues)
+
+</div>
 
 ## About The Project
 
